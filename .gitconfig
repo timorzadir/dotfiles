@@ -1,6 +1,6 @@
 [user]
-	name = Jesper Haug Karsrud
-	email = EMAIL
+	name = Asbjørn Ulsberg
+	email = asbjorn@ulsberg.no
 [color]
 	ui = true
 	status = true
@@ -14,3 +14,5 @@
 	whitespace = fix
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        l = "!. ~/.githelpers && pretty_git_log"
+        la = !git l --all
