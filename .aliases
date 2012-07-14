@@ -1,5 +1,3 @@
-alias ll='ls -lasG'
-
 # Git shortcuts
 alias g='git'
 alias ga='git add'
@@ -24,3 +22,27 @@ alias grv='gr -v'
 #alias gra='git remote add'
 alias grr='git remote rm'
 alias gcl='git clone'
+
+# TextMate          
+alias tm=/Users/asbjorn/bin/mate
+alias textmate=/Users/asbjorn/bin/mate
+alias TextMate=/Users/asbjorn/bin/mate
+alias mate='/Applications/TextMate.app/Contents/Resources/mate'
+
+# Shell improvements
+alias ll='ls -lasG'
+alias ls='ls -lahF'
+alias 'cd..'='cd ..'
+alias cls='history -c && clear'
+
+# MySQL shortcuts
+alias mysql='/opt/local/share/mysql5/mysql/mysql'
+alias mysqlstart='sudo /opt/local/share/mysql5/mysql/mysql.server start'
+alias mysqlstop='/opt/local/bin/mysqladmin5 -u root -p shutdown'  
+alias mysqlrestart='/opt/local/share/mysql5/mysql/mysql.server restart'
+alias mysqlreload='/opt/local/share/mysql5/mysql/mysql.server reload'
+
+# Apache shortcuts
+alias apachestart='sudo /opt/local/apache2/bin/httpd -k start'
+alias apachestop='sudo /opt/local/apache2/bin/httpd -k stop'
+alias apacherestart='sudo /opt/local/apache2/bin/httpd -k graceful'
