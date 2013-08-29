@@ -1,6 +1,6 @@
-# Jesper's dotfiles
+# Asbjørn's dotfiles
 
-This is Jesper Karsrud's dotfiles, with awesome stuff in it!
+This is Asbjørn Ulsberg's dotfiles, with awesome stuff in it!
 
 ## How does it work?
 
