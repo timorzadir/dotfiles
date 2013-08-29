@@ -1,3 +1,6 @@
+# define md
+md () { mkdir -p "$@" && cd "$@"; }
+
 # add a github remote by github username
 function gra() {
   if (( "${#@}" != 1 )); then
