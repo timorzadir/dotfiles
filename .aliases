@@ -33,6 +33,7 @@ alias mate='/Applications/TextMate.app/Contents/Resources/mate'
 alias ll='ls -lasG'
 alias ls='ls -lahF'
 alias 'cd..'='cd ..'
+alias 'cd-'='cd -'
 alias cls='history -c && clear'
 
 # MySQL shortcuts
