@@ -9,3 +9,8 @@ shopt -s nocaseglob
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+# Perlbrew
+if [ -a ~/perl5/perlbrew/etc/bashrc ]; then
+  source ~/perl5/perlbrew/etc/bashrc
+fi

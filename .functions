@@ -33,3 +33,15 @@ if [[ "$OSTYPE" =~ ^darwin ]]; then
   alias gdkc='gdk --cached'
   alias gt='gittower -s'
 fi
+
+# Change the extension of files from $1 to $2 
+function cext() {
+  if (( "${#@}" != 2 )); then
+    echo "Changes the extension from <X> to <Y>."
+    echo "    Usage: ext X Y"
+    return 1;
+  fi
+  find -L . -type f -name "*.$1" -print0 | while IFS= read -r -d '' FNAME; do
+    mv -v -- "$FNAME" "${FNAME%.$1}.$2"
+  done
+}
