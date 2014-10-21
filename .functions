@@ -38,7 +38,7 @@ fi
 function cext() {
   if (( "${#@}" != 2 )); then
     echo "Changes the extension from <X> to <Y>."
-    echo "    Usage: ext X Y"
+    echo "    Usage: cext X Y"
     return 1;
   fi
   find -L . -type f -name "*.$1" -print0 | while IFS= read -r -d '' FNAME; do
