@@ -55,3 +55,6 @@ alias todo='/usr/local/bin/todo.sh'
 # Sync NTP
 alias ntpsync="sudo ntpdate -u $(sudo systemsetup -getnetworktimeserver|awk '{print $4}')"
 alias fuck='sudo $(history -p \!\!)'
+
+# When using sudo, use alias expansion (otherwise sudo ignores your aliases)
+alias sudo='sudo '
