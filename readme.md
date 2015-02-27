@@ -1,6 +1,6 @@
-# Asbjørn's dotfiles
+# Tommy's dotfiles
 
-This is Asbjørn Ulsberg's dotfiles, with awesome stuff in it!
+This is Tommy Mikalsen's dotfiles, with awesome stuff in it!
 
 ## How does it work?
 
